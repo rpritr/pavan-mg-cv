@@ -1,0 +1,15 @@
+@use "../../../../scss/general/variables";
+.menu {
+  ul {
+    display: flex;
+    gap: 1em;
+  }
+
+  li {
+    list-style: none;
+    a {
+      color: variables.$adjacentColor;
+      text-decoration: none;
+    }
+  }
+}
