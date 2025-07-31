@@ -3,6 +3,9 @@ import Logo from "./Logo/Logo";
 import Menu from "./Menu/Menu";
 import "./_header.scss";
 import Social from "./Social/Social";
+import gh from "../../../assets/github.svg";
+import tw from "../../../assets/twitter.svg";
+import ln from "../../../assets/linkedin.svg";
 const Header = (props) => {
     return (
         <div className={props.type}>
@@ -18,7 +21,12 @@ const Header = (props) => {
                         { title: "Contact", url: "#contact" },
                     ]
                 }/>
-                <Social type={props.type +"__nav"} />
+                <Social type={props.type +"__nav"} items={[
+                    { url: "#", src: gh, alt: "Github" },
+                    { url: "#", src: tw, alt: "Twitter" },
+                    { url: "#", src: ln, alt: "LinkedIn" },
+
+                ]}/>
             </div>
         </div>
     )
