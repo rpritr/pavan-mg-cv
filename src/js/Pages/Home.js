@@ -3,9 +3,6 @@ import Header from "../Components/Header/Header";
 import Banner from "../Components/Banner/Banner";
 import Section from "../Components/Section/Section";
 import Social from "../Components/Header/Social/Social";
-import gh from "../../assets/github.svg";
-import tw from "../../assets/twitter.svg";
-import ln from "../../assets/linkedin.svg";
 
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
@@ -15,6 +12,7 @@ import sass from "../../assets/sass.svg";
 import git from "../../assets/git.svg";
 import code from "../../assets/code.svg";
 import gith from "../../assets/gith.svg";
+import Projects from "../Components/Projects/Projects";
 
 const Home = () => {
     return (
@@ -34,7 +32,9 @@ const Home = () => {
 
                 ]}/>
             </Section>
-            <Section type="projects" title="Projects" subtitle="Things I’ve built so far"/>
+            <Section type="projects" title="Projects" subtitle="Things I’ve built so far">
+                <Projects/>
+            </Section>
             <Header type="footer"/>
         </>
     )
