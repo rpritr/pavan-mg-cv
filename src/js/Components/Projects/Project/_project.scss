@@ -5,6 +5,9 @@
   border-radius: 2em;
   margin: 1em;
   text-align: left;
+  > img:first-of-type {
+    width: 100%;
+  }
   .project__container {
     padding: 1.5em;
   }
@@ -23,7 +26,7 @@
     margin-top: 1em;
     color: variables.$secondaryColor;
 
-    a { text-decoration: underline; }
+    a { text-decoration: underline; color: variables.$secondaryColor; }
     img {
       margin-right: 0.5em;
     }
