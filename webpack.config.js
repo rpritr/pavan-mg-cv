@@ -82,6 +82,9 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: "css/style.css",
         }),
-        new Dotenv(),
+        new Dotenv({
+            systemvars: true
+            }
+        ),
     ],
 };
