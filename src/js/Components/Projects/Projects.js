@@ -5,7 +5,6 @@ const Projects = () => {
     const [projects, setProjects] = useState([]);
     const api = process.env.API_ENDPOINT;
     const apiKey = process.env.API_KEY;
-    console.log(apiKey);
     const getProjects = async () => {
        await fetch(api,
             {
