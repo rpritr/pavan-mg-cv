@@ -1,6 +1,5 @@
 {
   "name": "pavan-mg-cv",
-  "homepage": "https://rpritr.github.io/pavan-mg-cv",
   "version": "1.0.0",
   "description": "Pavan MG React CV",
   "main": "index.js",
@@ -15,11 +14,10 @@
     "start": "webpack serve",
     "build": "webpack",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Robi Pritrznik",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.27.7",
@@ -31,7 +29,6 @@
     "css-loader": "^7.1.2",
     "dotenv-webpack": "^8.1.1",
     "file-loader": "^6.2.0",
-    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
     "os": "^0.1.2",
